@@ -89,6 +89,38 @@ body {
     flex: auto;
 }
 
+.section-2 h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information p {
+    font-size: 16px;
+    color: #1F2937
+}
+
+.information div {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    text-align:center;
+}
+
+.information div img {
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 20px;
+}
+
 /* Third section */
 .section-3 {
     background-color: #E5E7EB;
