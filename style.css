@@ -14,9 +14,11 @@ body {
     flex: auto;
 }
 
+/* Header */
+
 .header {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .header h2 {
@@ -27,8 +29,8 @@ body {
 .header ul {
     list-style-type: none;
     display: flex;
-    align-items: center;
     gap: 32px;
+    margin-left: auto;
 }
 
 .header ul li a {
@@ -37,7 +39,43 @@ body {
     color: #E5E7EB
 }
 
-/* Second section*/
+/* Introduction */
+.introduction {
+    display: flex;
+}
+
+.introduction .text {
+    flex: 1;
+}
+
+.introduction .text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.introduction .text p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.introduction .text button {
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.introduction img {
+    flex: 1;
+    background-color:gray;
+}
+
+/* Second section */
 .section-2 {
     background-color: #FFFFFF;
     flex: auto;
