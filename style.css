@@ -16,6 +16,14 @@ body {
     min-height: 100vh;
 }
 
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
 /* First section */
 .section-1 {
     background-color: #1F2937;
@@ -98,7 +106,8 @@ body {
 
 .information {
     display: flex;
-    justify-content: space-around;
+    gap: 64px;
+    justify-content: center;
 }
 
 .information p {
@@ -150,6 +159,40 @@ body {
 .section-4 {
     background-color: #FFFFFF;
     flex: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pop-up {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 8px 128px;
+}
+
+.pop-up .text h3 {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.pop-up .text p {
+    font-size: 16px;
+    color: #E5E7EB
+}
+
+.pop-up button {
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 /* Footer */
