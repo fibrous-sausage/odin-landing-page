@@ -1,3 +1,10 @@
+/*
+Problems:
+- Applying flexbox column on body did not take up the whole page's height. Fixed by using min-height: 100vh on body, but introduced a different problem where scrollbars are introduced on smaller screens.
+- Content in each section is unresponsive as the padding used to center content is hardcoded. This could be remedied with relative units/percentages. 
+- Widths and heights are hardcoded causing text overflow among other issues. Could be fixed by only setting max-widths and min-heights and nothing else.
+*/
+
 * {
     font-family: 'Roboto', sans-serif;
 }
