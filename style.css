@@ -15,17 +15,24 @@ body {
     margin: 0;
 }
 
+.section-1,
+.section-3 {
+    padding: 0 300px;
+}
+
 /* First section */
 .section-1 {
     background-color: #1F2937;
     color: white;
     flex: auto;
+    height: 600px;
 }
 
 /* Header */
 .header {
     display: flex;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .header h2 {
@@ -49,6 +56,7 @@ body {
 /* Introduction */
 .introduction {
     display: flex;
+    gap: 32px;
 }
 
 .introduction .text {
@@ -80,14 +88,18 @@ body {
 .introduction img {
     flex: 1;
     background-color:gray;
-    max-width: 400px;
-    height: 200px;
+    text-align: center;
 }
 
 /* Second section */
 .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FFFFFF;
     flex: auto;
+    height: 500px;
 }
 
 .section-2 h2 {
@@ -125,8 +137,13 @@ body {
 
 /* Third section */
 .section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #E5E7EB;
     flex: auto;
+    height: 500px;
 }
 
 .quote {
@@ -154,16 +171,19 @@ body {
     flex: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
 .pop-up {
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
-    padding: 8px 128px;
+    padding: 20px 100px;
+    max-height: 120px;
 }
 
 .pop-up .text h3 {
