@@ -1,7 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 div {
@@ -14,14 +12,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-}
-
-.section-1,
-.section-2,
-.section-3,
-.section-4 {
-    padding-left: 12vw;
-    padding-right: 12vw;
+    margin: 0;
 }
 
 /* First section */
@@ -89,6 +80,8 @@ body {
 .introduction img {
     flex: 1;
     background-color:gray;
+    max-width: 400px;
+    height: 200px;
 }
 
 /* Second section */
@@ -197,6 +190,10 @@ body {
 
 /* Footer */
 .footer {
+    color: #F9FAF8;
     background-color: #1F2937;
     min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
