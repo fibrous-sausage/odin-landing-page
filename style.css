@@ -2,27 +2,37 @@
     font-family: 'Roboto', 'Courier', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* First section */
 .section-1 {
     background-color: #1F2937;
+    flex: auto;
 }
 
 /* Second section*/
 .section-2 {
     background-color: #FFFFFF;
+    flex: auto;
 }
 
 /* Third section */
 .section-3 {
     background-color: #E5E7EB;
+    flex: auto;
 }
 
 /* Fourth section */
 .section-4 {
     background-color: #FFFFFF;
+    flex: auto;
 }
 
 /* Footer */
 .footer {
     background-color: #1F2937;
+    min-height: 72px;
 }
